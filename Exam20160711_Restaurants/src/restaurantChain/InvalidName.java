@@ -1,6 +1,10 @@
 package restaurantChain;
 
 public class InvalidName extends Exception {
-    private static final long serialVersionUID = 1L;
+    public InvalidName(String InvalidName) {
+		// TODO Auto-generated constructor stub
+	}
+
+	private static final long serialVersionUID = 1L;
 
 }

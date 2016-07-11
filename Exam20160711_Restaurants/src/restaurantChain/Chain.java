@@ -1,13 +1,12 @@
-package restaurantChain;
-
+package restaurantChain; 
 import java.util.List;
-
 public class Chain {	
 
-		public void addRestaurant(String name, int tables) throws InvalidName{
+		public void addRestaurant(String name, int tables) throws InvalidName {
+			if(name==null || tables < 0 );
 		}
-		
-		public Restaurant getRestaurant(String name) throws InvalidName{
+
+		public Restaurant getRestaurant(String name) throws InvalidName{if(name==null);
 			return null;
 		}
 		
